@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.blooddonor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/mj/Project2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/mj/Project2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/mj/Project2/app/src/main/AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->/home/mj/Project2/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /home/mj/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/mj/Project2/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/mj/Project2/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/mj/Project2/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/mj/Project2/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/home/mj/Project2/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.blooddonor.UpdateProfile" />
+21-->/home/mj/Project2/app/src/main/AndroidManifest.xml:12:9-60
+21-->/home/mj/Project2/app/src/main/AndroidManifest.xml:12:19-48
+22        <activity android:name="com.example.blooddonor.DonorsList" />
+22-->/home/mj/Project2/app/src/main/AndroidManifest.xml:13:9-48
+22-->/home/mj/Project2/app/src/main/AndroidManifest.xml:13:19-45
+23        <activity android:name="com.example.blooddonor.SearchActivity" />
+23-->/home/mj/Project2/app/src/main/AndroidManifest.xml:14:9-52
+23-->/home/mj/Project2/app/src/main/AndroidManifest.xml:14:19-49
+24        <activity android:name="com.example.blooddonor.DonorProfile" />
+24-->/home/mj/Project2/app/src/main/AndroidManifest.xml:15:9-50
+24-->/home/mj/Project2/app/src/main/AndroidManifest.xml:15:19-47
+25        <activity android:name="com.example.blooddonor.RegisterActivity" />
+25-->/home/mj/Project2/app/src/main/AndroidManifest.xml:16:9-54
+25-->/home/mj/Project2/app/src/main/AndroidManifest.xml:16:19-51
+26        <activity android:name="com.example.blooddonor.LoginActivity" />
+26-->/home/mj/Project2/app/src/main/AndroidManifest.xml:17:9-51
+26-->/home/mj/Project2/app/src/main/AndroidManifest.xml:17:19-48
+27        <activity android:name="com.example.blooddonor.MainActivity" >
+27-->/home/mj/Project2/app/src/main/AndroidManifest.xml:18:9-24:20
+27-->/home/mj/Project2/app/src/main/AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->/home/mj/Project2/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/mj/Project2/app/src/main/AndroidManifest.xml:20:17-69
+29-->/home/mj/Project2/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/mj/Project2/app/src/main/AndroidManifest.xml:22:17-77
+31-->/home/mj/Project2/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

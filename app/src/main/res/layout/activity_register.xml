@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <Spinner
+        android:id="@+id/cityID"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/cityTextViewID"
+        app:layout_constraintTop_toBottomOf="@+id/ageID"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:fontFamily="serif"
+        android:text="@string/register_text"
+        android:textColor="#C32222"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <EditText
+        android:id="@+id/nameID"
+        android:layout_width="287dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/phonenumberID"
+        android:layout_width="288dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameID"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <EditText
+        android:id="@+id/ageID"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonenumberID"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Spinner
+        android:id="@+id/bgID"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageID"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <EditText
+        android:id="@+id/loginpasswordID"
+        android:layout_width="288dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityID"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <EditText
+        android:id="@+id/confirmpasswordID"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="96dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginpasswordID"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/registerID"
+        android:layout_width="116dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_style"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmpasswordID"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <TextView
+        android:id="@+id/cityTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="City"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgTextViewID" />
+
+    <TextView
+        android:id="@+id/bgTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cityID"
+        app:layout_constraintEnd_toEndOf="@+id/bgID"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageID"
+        app:layout_constraintVertical_bias="0.474" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

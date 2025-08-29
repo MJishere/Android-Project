@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Blood Donor</string>
+    <string name="question">WHO YOU ARE ?</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="register_text">Register</string>
+    <string name="my_profile">My Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_number">Phone No</string>
+    <string name="profile_age">Age</string>
+    <string name="profile_bg">BG</string>
+    <string name="profile_city">City</string>
+    <string name="heading">Search Donors</string>
+    <string name="search_city">City</string>
+    <string name="search">Search</string>
+    <string name="update_title">Update Profile</string>
+    <string name="title_name">Name</string>
+    <string name="udate_titlePhone">Ph No</string>
+    <string name="update_bttnTitle">Update</string>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Bagalkote</item>
+        <item>Bengaluru Urban</item>
+        <item>Bengaluru Rural</item>
+        <item>Belagavi</item>
+        <item>Ballari</item>
+        <item>Bidar</item>
+        <item>Vijayapur</item>
+        <item>Chamarajanagar</item>
+        <item>Chikballapur</item>
+        <item>Chikkamagaluru</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Kalaburagi</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysuru</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shivamogga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Yadgir</item>
+    </string-array>
+</resources>
